@@ -1,13 +1,10 @@
 #include <food.h>
 
 void cls(){
-
 	system("cls");
-
 }
 
 void echo(char print[]){
-
 	printf("%s",print);
 }
 
@@ -32,8 +29,8 @@ void span(int space){
 
 }
 
-void main_menu(){
-
+void main_menu()
+{
 	cls();
 	br(5); pre(3); echo("===> 1. Food List"); Sleep(400);
 	br(2); pre(3); echo("===> 2. Admin Panel"); Sleep(400);
@@ -41,7 +38,6 @@ void main_menu(){
 	//   br(2); pre(3); echo("=> 4. Admin Panel");  Sleep(400);
 
 	br(1);
-
 }
 
 void insertend(int data, char foodname[25], int quantity, float price){
