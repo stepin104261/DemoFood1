@@ -10,14 +10,13 @@ struct Node{
 
 };
 
-   ///Global Type
-
+///Global Type
 typedef struct Node node ;
 
 node *head, *list;
 
-int main(){
-
+int main()
+{
 	loadingbar();
 	cls();
 	pwelcome();
