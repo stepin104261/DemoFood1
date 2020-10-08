@@ -14,18 +14,16 @@ void insertmid(int pos, int data, char foodname[25], int quantity, float price);
 void insertend(int data, char foodname[25], int quantity, float price);
 void updatefood(int udata, int uquantity);
 
-     /// Display Function
+/// Display Function
 void foodlist();
 void order_view(int order, int quantity, int or_no);
 void main_menu();
 
-    ///Delete & Count Function
-
+///Delete & Count Function
 int deletefood(int serial);
 int countitem();
 
 ///extra design Function
-
 void cls();
 void echo(char print[]);
 void br(int line);
