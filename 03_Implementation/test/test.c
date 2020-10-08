@@ -21,7 +21,8 @@ int main() {
   return 0;
 }
 
-void testdel(void) {
+void testdel(void)
+{
   CU_ASSERT(1 == deletefood(7)); //pass case
   CU_ASSERT(1 == deletefood(20)); //fail case
 }
